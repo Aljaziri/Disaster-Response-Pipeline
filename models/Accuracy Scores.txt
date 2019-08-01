@@ -1,0 +1,81 @@
+                        precision    recall  f1-score   support
+
+               related       0.93      0.82      0.87      4570
+               request       0.40      0.82      0.54       432
+                 offer       0.00      0.00      0.00         0
+           aid_related       0.51      0.75      0.61      1490
+          medical_help       0.06      0.61      0.10        38
+      medical_products       0.09      0.72      0.16        32
+     search_and_rescue       0.07      0.82      0.13        11
+              security       0.00      0.00      0.00         1
+              military       0.04      0.46      0.07        13
+           child_alone       0.00      0.00      0.00         0
+                 water       0.32      0.85      0.46       125
+                  food       0.43      0.83      0.57       307
+               shelter       0.34      0.85      0.49       174
+              clothing       0.06      0.62      0.11         8
+                 money       0.01      0.50      0.02         2
+        missing_people       0.00      0.00      0.00         0
+              refugees       0.03      0.67      0.06         9
+                 death       0.16      0.93      0.27        41
+             other_aid       0.03      0.43      0.05        42
+infrastructure_related       0.01      0.33      0.01         6
+             transport       0.08      0.75      0.14        24
+             buildings       0.09      0.71      0.15        31
+           electricity       0.03      0.60      0.07         5
+                 tools       0.00      0.00      0.00         1
+             hospitals       0.00      0.00      0.00         0
+                 shops       0.00      0.00      0.00         0
+           aid_centers       0.00      0.00      0.00         1
+  other_infrastructure       0.00      0.00      0.00         4
+       weather_related       0.47      0.86      0.61       818
+                floods       0.34      0.89      0.49       167
+                 storm       0.30      0.79      0.44       195
+                  fire       0.06      1.00      0.11         3
+            earthquake       0.72      0.90      0.80       406
+                  cold       0.10      0.50      0.17        20
+         other_weather       0.02      0.38      0.03        13
+         direct_report       0.36      0.77      0.49       478
+
+           avg / total       0.68      0.81      0.71      9467
+
+**** Accuracy scores for each category *****
+
+Accuracy score for related 0.793629601373
+Accuracy score for request 0.884035857334
+Accuracy score for offer 0.996376120542
+Accuracy score for aid_related 0.727064657639
+Accuracy score for medical_help 0.922372687393
+Accuracy score for medical_products 0.955559794011
+Accuracy score for search_and_rescue 0.97654014877
+Accuracy score for security 0.980354758726
+Accuracy score for military 0.969673850849
+Accuracy score for child_alone 1.0
+Accuracy score for water 0.95308029754
+Accuracy score for food 0.925424375358
+Accuracy score for shelter 0.940682815182
+Accuracy score for clothing 0.984169368682
+Accuracy score for money 0.97825672325
+Accuracy score for missing_people 0.989128361625
+Accuracy score for refugees 0.963761205417
+Accuracy score for death 0.961472439443
+Accuracy score for other_aid 0.867633034522
+Accuracy score for infrastructure_related 0.935342361244
+Accuracy score for transport 0.957657829487
+Accuracy score for buildings 0.954033950029
+Accuracy score for electricity 0.983787907686
+Accuracy score for tools 0.992752241083
+Accuracy score for hospitals 0.989319092123
+Accuracy score for shops 0.995422468053
+Accuracy score for aid_centers 0.987602517643
+Accuracy score for other_infrastructure 0.956131985504
+Accuracy score for weather_related 0.826053786
+Accuracy score for floods 0.941255006676
+Accuracy score for storm 0.924852183864
+Accuracy score for fire 0.990272744612
+Accuracy score for earthquake 0.965287049399
+Accuracy score for cold 0.981499141713
+Accuracy score for other_weather 0.945451077627
+Accuracy score for direct_report 0.854472630174
+Saving model...
+    MODEL: models/classifier.pkl
