@@ -1,5 +1,5 @@
 
-# Disaster-Response-Pipeline
+# Disaster Response Pipeline
  Disaster Response Pipeline Project is part of Udacity Data-Scientist NanoDegree program
 
 ## Table of Contents
@@ -19,7 +19,7 @@ In the Project Workspace, you'll analyze a data set containing real messages tha
 
 1. ETL Pipeline
 
-The Python script, process_data.py, contains a data cleaning pipeline that:
+The Python script, `process_data.py`, contains a data cleaning pipeline that:
 
 - Loads the messages and categories datasets
 - Merges the two datasets
@@ -28,7 +28,7 @@ The Python script, process_data.py, contains a data cleaning pipeline that:
 
 2. ML Pipeline
 
-The Python script, train_classifier.py, has a machine learning pipeline that:
+The Python script, `train_classifier.py`, has a machine learning pipeline that:
 
 - Loads data from the SQLite database
 - Splits the dataset into training and test sets
